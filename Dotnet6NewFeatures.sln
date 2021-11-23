@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONFeatures", "src\JSONFeatures\JSONFeatures.csproj", "{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONFeatures", "src\JSONFeatures\JSONFeatures.csproj", "{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQFeatures", "src\LINQFeatures\LINQFeatures.csproj", "{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
