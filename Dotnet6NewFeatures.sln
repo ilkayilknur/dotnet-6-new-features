@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONFeatures", "src\JSONFeatures\JSONFeatures.csproj", "{773A8E35-A4B6-4550-8B1D-A0CCDC4A2980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQFeatures", "src\LINQFeatures\LINQFeatures.csproj", "{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQFeatures", "src\LINQFeatures\LINQFeatures.csproj", "{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGenerators", "src\SourceGenerators\SourceGenerators.csproj", "{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
