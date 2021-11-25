@@ -19,8 +19,13 @@ void DoSomethingUseful(object obj)
 }
 
 //WaitAsync Improvements
-//Task operationTask = SomeLongRunningOperationAsync();
-//await operationTask.WaitAsync(TimeSpan.FromSeconds(10));
+Task operationTask = SomeLongRunningOperationAsync();
+await operationTask.WaitAsync(TimeSpan.FromSeconds(10));
+
+Task SomeLongRunningOperationAsync()
+{
+    return Task.CompletedTask;
+}
 
 
 //CancellationToken.TryReset
