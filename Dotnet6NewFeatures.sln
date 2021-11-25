@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONFeatures", "src\JSONFea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQFeatures", "src\LINQFeatures\LINQFeatures.csproj", "{3A1E9B15-A3BD-48F5-A0F0-8373230C8A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGenerators", "src\SourceGenerators\SourceGenerators.csproj", "{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGenerators", "src\SourceGenerators\SourceGenerators.csproj", "{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTypes", "src\NewTypes\NewTypes.csproj", "{0874479C-AB0B-4259-A5B3-B9AEE5EB4AE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0B93715-D20B-4E9B-BF11-D3AD14E73A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0874479C-AB0B-4259-A5B3-B9AEE5EB4AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0874479C-AB0B-4259-A5B3-B9AEE5EB4AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0874479C-AB0B-4259-A5B3-B9AEE5EB4AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0874479C-AB0B-4259-A5B3-B9AEE5EB4AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
